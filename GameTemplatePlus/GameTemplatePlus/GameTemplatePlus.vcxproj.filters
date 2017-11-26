@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\内部システム">
+      <UniqueIdentifier>{1e7a52cf-86bc-41b4-b171-61ea88a46352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\共通">
+      <UniqueIdentifier>{733c2679-6042-4469-96c1-31ef262d7a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{d282f4b4-73a8-42d3-84da-791baeb21f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\内部システム">
+      <UniqueIdentifier>{4eea382e-4411-4475-b945-6dcfb6877f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\共通">
+      <UniqueIdentifier>{62981200-97c0-496d-b22a-757daaffbe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{edc97828-c54a-49ad-8ae0-0f7b25d7dba9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDriver.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicCell.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoData.cpp">
+      <Filter>ソース ファイル\共通</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInput.cpp">
+      <Filter>ソース ファイル\共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp">
+      <Filter>ソース ファイル\共通</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInfo.cpp">
+      <Filter>ソース ファイル\共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareData.cpp">
+      <Filter>ソース ファイル\共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル\内部システム</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseManager.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMotion.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDriver.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicCell.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoData.h">
+      <Filter>ヘッダー ファイル\共通</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInput.h">
+      <Filter>ヘッダー ファイル\共通</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion.h">
+      <Filter>ヘッダー ファイル\共通</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyValue.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInfo.h">
+      <Filter>ヘッダー ファイル\共通</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareData.h">
+      <Filter>ヘッダー ファイル\共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ヘッダー ファイル\内部システム</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
